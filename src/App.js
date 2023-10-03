@@ -1,9 +1,10 @@
-import { Input, Box, ChakraProvider, Heading, Button, CardFooter, Text, VStack, Card, CardHeader, CardBody, OrderedList, ListItem } from '@chakra-ui/react'
-
+import { Textarea, Input, Box, ChakraProvider, Heading, Button, CardFooter, Text, VStack, Card, CardHeader, CardBody, OrderedList, ListItem } from '@chakra-ui/react'
+import Header from './components/Header.js'
 export default function App() {
   return (
     <ChakraProvider>
       <Box>
+        <Header></Header>
         <VStack>
           <Card size="lg">
             <CardHeader>
